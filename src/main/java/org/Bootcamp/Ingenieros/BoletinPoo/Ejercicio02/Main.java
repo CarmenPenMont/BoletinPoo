@@ -6,8 +6,7 @@ public class Main {
     public static void main(String[] args) {
         boolean primo;
         int numero;
-        int resto;
-        System.out.print("Introduce un número entero: ");
+        System.out.print("Introduce un número entero:   ");
         numero = Input.integer();
         int[] intArrayPrimo = new int[5];
         intArrayPrimo[0] = 1;
@@ -18,12 +17,12 @@ public class Main {
         for (int i = 0; i < intArrayPrimo.length; i++) {
             if (numero % intArrayPrimo[i] == 0) {
                 primo = true;
-                System.out.println("El número es múltiplo de: ");
-                System.out.println(intArrayPrimo [i]);
+                System.out.println("El número " + numero + " es múltiplo de " + i);
             } else {
                 primo = false;
-                System.out.println("El número no es múltiplo");
+                System.out.println("El número " + numero + " no es múltiplo de " + i);
             }
         }
     }
 }
+

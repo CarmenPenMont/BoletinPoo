@@ -12,7 +12,7 @@ public class Main {
         int intNum= Integer.parseInt(str.substring(0,str.indexOf(".")));
         double decNum=Float.parseFloat(str.substring(str.indexOf(".")));
 
-        System.out.print("La parte entera es ");
+        System.out.print("La parte entera es " );
         System.out.println(intNum);
         System.out.print("La parte decimal es ");
         System.out.println(decNum);
