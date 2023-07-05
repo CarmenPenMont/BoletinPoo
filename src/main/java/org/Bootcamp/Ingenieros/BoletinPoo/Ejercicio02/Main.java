@@ -4,8 +4,9 @@ import org.Bootcamp.Ingenieros.BoletinPoo.Util.Input;
 
 public class Main {
     public static void main(String[] args) {
-        boolean primo;
+        boolean es_primo = true;
         int numero;
+        int resto;
         System.out.print("Introduce un número entero:   ");
         numero = Input.integer();
         int[] intArrayPrimo = new int[5];
@@ -14,15 +15,12 @@ public class Main {
         intArrayPrimo[2] = 3;
         intArrayPrimo[3] = 5;
         intArrayPrimo[4] = 7;
-        for (int i = 0; i < intArrayPrimo.length; i++) {
+        for (int i = 2; i < intArrayPrimo.length; i++) {
             if (numero % intArrayPrimo[i] == 0) {
-                primo = true;
-                System.out.println("El número " + numero + " es múltiplo de " + i);
-            } else {
-                primo = false;
-                System.out.println("El número " + numero + " no es múltiplo de " + i);
+                es_primo = false;
             }
-        }
+            System.out.println("El número es múltiplo");
+            System.out.println("El número no es múltiplo");
+           }
     }
 }
-
