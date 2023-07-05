@@ -8,7 +8,11 @@ public class Main
         int n;
         double factorial = 1;
         System.out.print("Introduce un número entero >=0:   ");
-        n= Input.integer();
-
+        n = Input.integer();
+        for (int i=0; i < n; i++)
+        {
+            factorial = factorial * i;
+        }
+        System.out.println (factorial);
     }
 }
