@@ -7,7 +7,7 @@ public class Main {
         boolean primo;
         int numero;
         int resto;
-        System.out.print("Introduce un número entero:   ");
+        System.out.print("Introduce un número entero: ");
         numero = Input.integer();
         int[] intArrayPrimo = new int[5];
         intArrayPrimo[0] = 1;
