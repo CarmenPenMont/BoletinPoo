@@ -8,7 +8,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-       /* Character opcion;
+        char opcion;
         int numero;
         int suma = 0;
         Character a, s, d, x;
@@ -21,15 +21,25 @@ public class Main {
                 numero = Input.integer();
                 lista.add(numero);
                 System.out.println("La Lista es: " + lista);
+                continue;
             } else {
                 if (opcion == 's') {
-                    List<Integer> lista = Arrays.asList();
-                    int suma = lista.stream().mapToInt(i -> i).sum();
-                    System.out.println(suma);
+                    System.out.print("La lista es: " + lista);
+                    int arr[] = {};
+                    for (int i = 0; i < arr.length; i++) {
+                        suma = suma + arr[i];
+                        System.out.println("y su suma es " + suma);
+                        break;
+                    }
                 } else {
                     if (opcion == 'd') {
                         System.out.println("La lista original es: " + lista);
                         lista.remove(1);
-                        System.out.println("La lista es: " + lista);*/
+                        System.out.println("La lista es: " + lista);
+                        break;
                     }
                 }
+            }
+        }
+    }
+}
