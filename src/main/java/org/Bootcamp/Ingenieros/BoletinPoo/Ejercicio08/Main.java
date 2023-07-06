@@ -8,29 +8,28 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-      /*  String opcion;
+       /* Character opcion;
         int numero;
-        int suma;
-        String a, s, d;
-        List myArrayList = new ArrayList();
-        List lista = new ArrayList<>(20);
-        System.out.print("Introduce una opcion entre: a (añadir numero a la lista), s (sumar los elementos de la lista y d(eliminar el último elemento de la lista: ");
-        opcion = Input.string();
+        int suma = 0;
+        Character a, s, d, x;
+        List<Integer> lista = new ArrayList<>();
+        opcion = Input.character("Introduce una opcion entre: a (añadir numero a la lista), s (sumar los elementos de la lista y d(eliminar el último elemento de la lista: ");
 
-        if (opcion = a) {
-            System.out.println("Introduce un número entero: ");
-            numero = Input.integer();
-            myArrayList.add(lista);
-            System.out.println("La Lista es: " + lista);
-        } else{
-            if (opcion = s) {
-                List<Integer> lista = Arrays.asList(lista);
-                int suma = lista.stream().mapToInt(i -> i).sum();
-                System.out.println(suma);
+        while (opcion != 'x') {
+            if (opcion == 'a') {
+                System.out.println("Introduce un número entero: ");
+                numero = Input.integer();
+                lista.add(numero);
+                System.out.println("La Lista es: " + lista);
             } else {
-                if (opcion = d) {
-                    System.out.println("La lista original es: " + lista);
-                    lista.remove(1);
-                    System.out.println("La lista es: " + lista);*/
-    }
-}
+                if (opcion == 's') {
+                    List<Integer> lista = Arrays.asList();
+                    int suma = lista.stream().mapToInt(i -> i).sum();
+                    System.out.println(suma);
+                } else {
+                    if (opcion == 'd') {
+                        System.out.println("La lista original es: " + lista);
+                        lista.remove(1);
+                        System.out.println("La lista es: " + lista);*/
+                    }
+                }
