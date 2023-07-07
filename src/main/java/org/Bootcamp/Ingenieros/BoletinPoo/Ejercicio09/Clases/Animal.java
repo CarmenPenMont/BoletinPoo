@@ -33,13 +33,13 @@ public class Animal {
         this.medio = "terrestre";
         this.es_un_clon = false;
     }
-    public Animal (Animal other){
+
+    public Animal(Animal other) {
         this.reino = other.reino;
         this.tipo = other.tipo;
         this.raza = other.raza;
         this.medio = other.medio;
         this.es_un_clon = true;
-
 
 
     }
