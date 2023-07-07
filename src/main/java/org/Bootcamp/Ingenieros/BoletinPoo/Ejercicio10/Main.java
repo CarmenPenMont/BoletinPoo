@@ -8,9 +8,12 @@ public class Main {
         Animal a;
         a = new Animal("mamifero", "perro", "caniche", "terrestre");
         Animal clon = new Animal(a);
+        Animal clon_2 = a.clone();
 
         System.out.println(a);
         System.out.println(clon);
+        System.out.println(clon_2);
+
 
     }
 

@@ -5,7 +5,7 @@ public class Animal {
     public String tipo;
     public String raza;
     public String medio;
-    boolean es_un_clon = false;
+    public boolean es_un_clon = false;
 
     @Override
     public String toString() {
@@ -40,8 +40,12 @@ public class Animal {
         this.raza = other.raza;
         this.medio = other.medio;
         this.es_un_clon = true;
-
-
     }
 
+    @Override
+    public Animal clone() {
+        Animal clon = new Animal (this.reino, this.tipo, this.raza, this.medio);
+        clon.es_un_clon=true;
+        return clon;
+    }
 }
