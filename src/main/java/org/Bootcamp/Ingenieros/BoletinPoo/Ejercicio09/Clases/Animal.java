@@ -23,7 +23,6 @@ public class Animal {
         this.tipo = tipo;
         this.raza = raza;
         this.medio = medio;
-        this.es_un_clon = false;
     }
 
     public Animal(String reino, String tipo, String raza) {

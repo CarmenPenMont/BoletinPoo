@@ -1,12 +1,13 @@
-package org.Bootcamp.Ingenieros.BoletinPoo.Ejercicio11;
+package org.Bootcamp.Ingenieros.BoletinPoo.Ejercicio12;
 
 import org.Bootcamp.Ingenieros.BoletinPoo.Ejercicio09.Clases.Animal;
+import org.Bootcamp.Ingenieros.BoletinPoo.Ejercicio11.IPropietario;
 
-public class AnimalGranja extends Animal implements IPropietario {
+public class AnimalSalvaje extends Animal implements IPropietario {
 
     String propietario;
 
-    public AnimalGranja(String reino, String tipo, String raza, String medio, String propietario) {
+    public AnimalSalvaje(String reino, String tipo, String raza, String medio, String propietario) {
         super(reino, tipo, raza, medio);
         this.propietario = propietario;
     }

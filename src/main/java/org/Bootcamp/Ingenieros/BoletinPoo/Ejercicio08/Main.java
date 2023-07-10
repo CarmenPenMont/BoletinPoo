@@ -12,7 +12,7 @@ public class Main {
         int numero;
         int suma = 0;
         Character a, s, d, x;
-        List<Integer> lista = new ArrayList<>();
+        List<Integer> lista = new ArrayList<Integer>();
         opcion = Input.character("Introduce una opcion entre: a (añadir numero a la lista), s (sumar los elementos de la lista y d(eliminar el último elemento de la lista: ");
 
         while (opcion != 'x') {
@@ -25,9 +25,8 @@ public class Main {
             } else {
                 if (opcion == 's') {
                     System.out.print("La lista es: " + lista);
-                    int arr[] = {};
-                    for (int i = 0; i < arr.length; i++) {
-                        suma = suma + arr[i];
+                    for (int i = 0; i < lista.size(); i++) {
+                        suma = suma + lista.size();
                         System.out.println("y su suma es " + suma);
                         break;
                     }
