@@ -5,7 +5,7 @@ import org.Bootcamp.Ingenieros.BoletinPoo.Ejercicio11.IPropietario;
 
 public class AnimalSalvaje extends Animal {
 
-    public AnimalSalvaje(String reino, String tipo, String raza, String medio,) {
+    public AnimalSalvaje(String reino, String tipo, String raza, String medio) {
         super(reino, tipo, raza, medio);
 
     }

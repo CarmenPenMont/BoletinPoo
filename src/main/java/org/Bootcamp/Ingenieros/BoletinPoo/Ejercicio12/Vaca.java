@@ -1,4 +1,5 @@
 package org.Bootcamp.Ingenieros.BoletinPoo.Ejercicio12;
+import org.Bootcamp.Ingenieros.BoletinPoo.Ejercicio09.Clases.Animal;
 
 import org.Bootcamp.Ingenieros.BoletinPoo.Ejercicio11.AnimalGranja;
 
