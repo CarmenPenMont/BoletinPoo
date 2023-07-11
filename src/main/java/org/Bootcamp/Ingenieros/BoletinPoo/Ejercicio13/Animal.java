@@ -61,4 +61,5 @@ public abstract class Animal {
         this.medio = other.medio;
         this.es_un_clon = true;
     }
+
 }
